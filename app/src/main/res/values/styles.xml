@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main activity style -->
+    <style name="MusicCategory">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/music_category_padding</item>
+        <item name="android:textSize">@dimen/music_category_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <!-- Style for the separator in the Main Activity -->
+    <style name="MusicCategorySeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separator_height</item>
+        <item name="android:layout_marginLeft">@dimen/separator_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/separator_margin_right</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Style for song name in pop, rock and music activities -->
+    <style name="ListItemSongName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/song_name_artist_list_height</item>
+        <item name="android:layout_weight">@dimen/song_name_artist_list_weight</item>
+        <item name="android:textSize">@dimen/list_item_song_name</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for artist name in pop, rock and music activities -->
+    <style name="ListItemSongArtist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/song_name_artist_list_height</item>
+        <item name="android:layout_weight">@dimen/song_name_artist_list_weight</item>
+        <item name="android:textSize">@dimen/list_item_artist_name</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingTop">@dimen/artist_name_top_padding</item>
+    </style>
+
+    <!-- Style for song image in the Now Playing activity -->
+    <style name="NowPlayingSongImage">
+        <item name="android:layout_width">@dimen/image_width</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/image_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/image_margin_bottom</item>
+    </style>
+
+    <!-- Style for song name the Now Playing activity -->
+    <style name="NowPlayingSongName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/now_playing_song_name</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style for artist name the Now Playing activity -->
+    <style name="NowPlayingSongArtist">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/now_playing_artist_name</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style for the linear layout of the button control in Now Playing -->
+    <style name="ButtonsControlLinearLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/linear_buttons_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/linear_buttons_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/linear_buttons_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/linear_buttons_margin_top</item>
+    </style>
+
+    <!-- Style for the buttons in Now Playing -->
+    <style name="ButtonsControl">
+        <item name="android:layout_width">@dimen/buttons_width</item>
+        <item name="android:layout_height">@dimen/buttons_height</item>
+        <item name="android:layout_weight">@dimen/buttons_weight</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:tint">@color/colorPrimary</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>

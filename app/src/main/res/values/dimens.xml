@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For the music categories in the Main Activity -->
+    <dimen name="music_category_text_size">20sp</dimen>
+    <dimen name="music_category_padding">30dp</dimen>
+
+    <!-- Text sizes for the songs and artist names displayed in pop, rock and dance activities -->
+    <dimen name="list_item_song_name">15sp</dimen>
+    <dimen name="list_item_artist_name">12sp</dimen>
+
+    <!-- Text sizes for the songs and artist names displayed in Now Playing -->
+    <dimen name="now_playing_song_name">30sp</dimen>
+    <dimen name="now_playing_artist_name">20sp</dimen>
+
+    <!-- For the list item xml -->
+    <dimen name="song_list_padding">10dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_item_height">80dp</dimen>
+    <dimen name="artist_name_top_padding">5dp</dimen>
+    <dimen name="song_name_artist_list_height">0dp</dimen>
+    <dimen name="song_name_artist_list_weight">1</dimen>
+
+    <!-- For the image view of the song in Now Playing -->
+    <dimen name="image_width">150dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="image_margin_top">100dp</dimen>
+    <dimen name="image_margin_bottom">30dp</dimen>
+
+    <!-- For music category separator on Main Activity -->
+    <dimen name="separator_height">1dp</dimen>
+    <dimen name="separator_margin_left">10dp</dimen>
+    <dimen name="separator_margin_right">10dp</dimen>
+
+    <!-- For the linear layout of the button control in Now Playing -->
+    <dimen name="linear_buttons_margin_bottom">20dp</dimen>
+    <dimen name="linear_buttons_margin_top">60dp</dimen>
+    <dimen name="linear_buttons_margin_right">40dp</dimen>
+    <dimen name="linear_buttons_margin_left">40dp</dimen>
+
+    <!-- For button in Now Playing -->
+    <dimen name="buttons_width">0dp</dimen>
+    <dimen name="buttons_weight">1</dimen>
+    <dimen name="buttons_height">100dp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+</resources>

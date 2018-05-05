@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for the pop songs -->
+    <string name="pop_music">Pop music</string>
+
+    <!-- Category name for the rock songs -->
+    <string name="rock_music">Rock music</string>
+
+    <!-- Category name for the dance songs -->
+    <string name="dance_music">Dance music</string>
+
+    <!-- Category name for Now Playing activity -->
+    <string name="now_playing">Now Playing</string>
+
+    <!-- Strings of songs for PopMusic Activity -->
+    <string name="first_pop_song">Shape of you</string>
+    <string name="artist_first_pop_song">Ed Sheeran</string>
+    <string name="second_pop_song">Thunder</string>
+    <string name="artist_second_pop_song">Imagine Dragons</string>
+    <string name="third_pop_song">Attention</string>
+    <string name="artist_third_pop_song">Charlie Puth</string>
+    <string name="fourth_pop_song">Dusk till dawn</string>
+    <string name="artist_fourth_pop_song">Zayn Malik</string>
+    <string name="fifth_pop_song">In my blood</string>
+    <string name="artist_fifth_pop_song">Shawn Mendes</string>
+
+    <!-- Strings of songs for RockMusic Activity -->
+    <string name="first_rock_song">Here without you</string>
+    <string name="artist_first_rock_song">3 Doors Down</string>
+    <string name="second_rock_song">Far away</string>
+    <string name="artist_second_rock_song">Nickelback</string>
+    <string name="third_rock_song">Crazy</string>
+    <string name="artist_third_rock_song">Aerosmith</string>
+    <string name="fourth_rock_song">Always</string>
+    <string name="artist_fourth_rock_song">Bon Jovi</string>
+    <string name="fifth_rock_song">November rain</string>
+    <string name="artist_fifth_rock_song">Guns N\' Roses</string>
+
+    <!-- Strings of songs for DanceMusic Activity -->
+    <string name="first_dance_song">Eveybody hates me</string>
+    <string name="artist_first_dance_song">The Chainsmokers</string>
+    <string name="second_dance_song">Lonely together</string>
+    <string name="artist_second_dance_song">Avicii</string>
+    <string name="third_dance_song">I like me better</string>
+    <string name="artist_third_dance_song">Lauv</string>
+    <string name="fourth_dance_song">El bano</string>
+    <string name="artist_fourth_dance_song">Enrique Iglesias</string>
+    <string name="fifth_dance_song">More than you know</string>
+    <string name="artist_fifth_dance_song">Axwell Ingrosso</string>
+
+    <!-- Toast string for the Now Playing activity -->
+    <string name="play_toast">Play</string>
+    <string name="rewind_toast">Rewind</string>
+    <string name="forward_toast">Forward</string>
+</resources>
